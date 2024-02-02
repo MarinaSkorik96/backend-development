@@ -39,7 +39,7 @@ const server = http.createServer((request, response) => {
       response.statusCode = 200;
       response.statusMessage = "OK";
       response.setHeader("Content-Type", "text/plain");
-      response.write(`Hello world`);
+      response.write(`Hello world!`);
       response.end();
       return;
 
